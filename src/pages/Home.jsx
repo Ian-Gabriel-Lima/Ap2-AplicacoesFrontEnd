@@ -3,7 +3,7 @@ import SearchForm from '../components/SearchForm';
 import ItemList from '../components/ItemList';
 
 export default function Home() {
-  const [cities, setCities] = useState(['São Paulo', 'Torres']);
+  const [cities, setCities] = useState(['Brasilia', 'São Paulo']);
 
   const handleSearch = (cityName) => {
     const cityLower = cityName.toLowerCase();

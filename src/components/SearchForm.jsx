@@ -17,7 +17,7 @@ export default function SearchForm({ onSearch }) {
         type="text"
         value={inputValue}
         onChange={(e) => setInputValue(e.target.value)}
-        placeholder="Procure por uma cidade (ex: São Paulo, Torres)..."
+        placeholder="Digite o nome da cidade aqui..."
         className="flex-1 p-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm"
       />
       <button
